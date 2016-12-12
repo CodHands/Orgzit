@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Oswald');
+		@import url('https://fonts.googleapis.com/css?family=Lato');
+		@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Poiret+One');
+		
+	*, html {
+		box-sizing: border-box;
+	}
+	
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.navbar-custom {
+		background: #0671af;
+		position: fixed;
+		z-index: 999999;
+		width: 100%;
+		padding:10px;
+		box-shadow: 0px 0px 8px 0px;
+	}
+	
+	.navbar-custom ul {
+	    list-style: none;
+	}
+	
+	.navbar-custom ul li {
+	    display: inline-block;
+		margin-right: 20px;
+	}
+	
+	.navbar-custom ul li a{
+		color: #fff;
+		font-size:18px;
+		position: relative;
+		top: 8px;
+		font-family: 'Lato', sans-serif;
+		letter-spacing: 1px;
+		transition: all .3s;
+		font-weight: bold;
+	} 
+	
+	.wrapper {
+		position: relative;
+    }
+	
+	.free {
+	    padding: 10px;
+		background: #5fb74c;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 5px;
+	}
+	
+	.logo {
+		height: 40px;
+	}
+	
+	.button {
+		padding: 7px;
+		padding-right: 10px;
+		padding-left: 10px;;
+		background: #5fb74c;
+		border-radius: 5px;			
+	}
+	
+	.move {
+		margin-right: 20px;
+	}
+	
+	.wrapper {
+		position: relative;
+		top:-16px;
+	}
+	
+	.overlay {
+		height: 100%;
+		top:0;
+		width: 100%;
+		position: absolute;
+		background: rgba(42,123,169, 0.6);
+	}
+	
+	.main_wrap {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 100%;
+		padding: 20px;
+	}
+	
+	.mob {
+		height: 500px;
+	}
+	
+	.mob_sub {
+		padding-top: 50px;
+		text-align; center;
+		position: relative;
+		left: 130px;
+	}
+	
+	.mob_sub h1 {
+		font-size: 140px;
+		color: #fff;
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+	}
+	
+	.mob_sub h2 {
+		font-size: 40px;
+		color: #fff;
+		margin-bottom: 50px;
+		font-family: 'Lato', sans-serif;
+	}
+	
+	.mob_sub button {
+		font-family: 'Lato', sans-serif;
+		color: #fff;
+		font-size: 30px;
+		padding: 10px 30px 10px 30px;
+		border-radius: 5px;
+		font-weight: 900;
+	}
+	
+	.icon_wrap {
+		background: rgb(255, 235, 100);
+		padding: 25px;
+		position: relative;
+		top: -20px;
+	}
+	
+	.icon_wrap img{
+		margin: 0 auto;
+	}
+	
+	.icon_wrap P {
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		color: #404040;
+		margin-top: 10px;
+	}
+	
+	@media screen and (max-width: 1200px) {
+		.icons {
+			margin-bottom: 20px;
+		}
+		
+		.logo {
+			height: 55px;
+		}
+		
+		.icons img {
+			margin-left: 15px;
+		}
+		
+		.cities {
+			height: 85%;
+		}
+		
+		.wrapper_map h1 {
+		    font-size: 20px;	
+		}
+		
+		.wrapper_map h3 {
+		    font-size: 16px;			
+		}
+		
+		.lap {
+		  height: 80%; 
+		  width: 100%;			  
+		}
+		
+		.maps {
+			height: 80%;
+		}
+		
+		.about_us {
+			padding: 10px;
+		}
+		
+		.about_us h1 {
+			font-size: 24px;
+		}
+	
+		.about_us h3 {
+			font-size: 18px;
+		}
+		
+		.about_us button {
+			font-size: 18px;
+			padding: 0;
+		}
+	
+		.icon_wrap img{
+			margin: 0 auto;
+		}
+		
+		.mob_sub {
+			position: relative;
+			left: 0;
+		}
+		
+		.mob {
+			height: 300px;
+			position: relative;
+			top: 50px;
+		}
+		
+		.mob_sub h1 {
+			font-size: 40px;
+		}
+		
+		.mob_sub h2 {
+			font-size: 24px;
+			margin-bottom: 100px;
+		}
+		
+		.mob_sub button {
+			font-size: 20px;
+		}
+		
+		.logo {
+		   position: relative;
+		   left: 70px;
+		}
+		
+		.boxx button {
+			font-size: 16px;
+		}
+		
+		.subtext_3 {
+			padding-top: 50px;
+		}
+	}
+	
+	.wrap {
+		padding: 30px;
+	}
+	
+	.wrap h2 {
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		color: rgb(12, 73, 115);
+		margin-bottom: 30px;
+	}
+	
+	.tools_container {
+		position: relative;
+		right: 20px;
+	}
+	
+	.features {
+		padding: 30px;
+	}
+	
+	.features h2 {
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		color: rgb(12, 73, 115);
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+	
+	.features h3 {
+		font-family: 'Droid Serif', serif;
+		line-height: 16px;
+	}
+	
+	.features h4 {
+		font-family: 'Droid Serif', serif;
+		line-height: 28px;
+		font-size: 16px;
+	}
+	
+	.org {
+		padding: 30px;
+	}
+	
+	.org h2 {
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		color: #1983c2;
+	}
+	
+	.boxx {
+		background: #eee;
+		padding: 15px;
+		padding-bottom: 30px;
+		margin-bottom: 20px;
+		height: 220px;
+	}
+	
+	.boxx h1 {
+		color: #1983c2;
+		font-family: 'Oswald', sans-serif;
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	
+	.tools {
+		margin-bottom: 30px;
+	}
+	
+	.boxx h2 {
+		color: #333;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		display: inline;
+		line-height: 24px;
+	}
+	
+	.boxx button {
+		margin-top: 20px;
+		border-radius: 5px;
+		background: #fff;
+		color: #404040;
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		border: 1px solid #0671af;
+		padding: 7px;
+	}
+	
+	.boxx button:hover {
+		background: #0671af;
+		color: #fff;
+	}
+	
+	.banner {
+		position: relative;
+		top: 0;
+	}
+	
+	.about_us {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.about_us h1 {
+		font-family: 'Oswald', sans-serif;
+		display: block;
+		font-weight: bold;
+		color: #fff;
+		margin-bottom: 50px;
+		font-size: 36px;
+		text-transform: uppercase;
+	}
+	
+	.about_us h3 {
+		font-family: 'Droid Serif', serif;
+		color: #fff;
+		margin-bottom: 50px;
+		font-weight: bold;
+	}
+	
+	.about_us button {
+		font-family: 'Droid Serif', serif;
+		color: #fff;
+		font-size: 30px;
+		padding: 10px;
+		border-radius: 5px;
+		font-weight: 300;
+	}
+	
+	.share {
+		position: relative;
+		top: 0;
+	}
+	
+	.wrapper_map h1 {
+		font-family: FranklinGothic;
+		font-weight: bold;
+		color: #fff;
+		font-size: 40px;
+		margin-bottom: 50px;
+	}
+	
+	.wrapper_map h3 {
+	   font-family: 'Droid Serif', serif;
+		color: #fff;
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 30px;
+		letter-spacing: 1px;
+		margin-bottom: 20px;
+		
+	}
+	
+	.wrapper_map button {
+		border: 0;
+		outline: none;
+		margin: 20px;
+		background: transparent;
+	}
+	
+	.wrapper_map button store_div{
+		position: relative;
+		top: 5px;
+		font-family: 'Droid Serif', serif;
+	}
+	
+	.wrapper_map {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 100%;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.store {
+		background: #0671af;
+		padding: 5px;
+		height: 70px;
+		width: 400px;
+		border-radius: 5px;
+	}
+	
+	.store p {
+		font-size: 14px;
+		color: #fff;
+		font-family: FranklinGothic;
+	}
+	
+	.store h5 {
+		font-size: 16px;
+		color: #fff;
+		font-family: FranklinGothic;
+		text-transform: uppercase;
+	}
+	
+	.playstore {
+		height: 40px;
+	}
+	
+	.apple {
+		height: 40px;
+	}
+	
+	.foot {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background: #0671af;
+		text-align: center;
+	}
+	
+	.foot h4 a {
+		color: #fff;
+		border-bottom: 1px solid #fff;
+	}
+	
+	.foot h4 a {
+		text-decoration: none;
+	}
+	
+	.share_it {
+		position: relative;
+		right: 20px;
+	}
+	
+	.foot h1 {
+		font-family: 'Oswald', sans-serif;
+		color: #fff;
+		margin-bottom: 30px;
+	}
+	
+	.foot h4 {
+		font-family: 'Oswald', sans-serif;
+		color: #fff;
+		margin-bottom: 30px;
+	}
+	
+	.foot h5 {
+		font-family: 'Oswald', sans-serif;
+		color: #fff;
+		font-size: 24px;
+	}
+	
+	.foot input {
+		border: 1px solid #fff;
+		height: 40px;
+		background: #0671af;
+		padding: 10px;
+		border-radius: 5px;
+		color: #fff;
+		width: 300px;
+		margin-bottom: 50px;
+	}
+	
+	.foot button {
+		height: 40px;
+		color: #404040;
+		padding: 7px;
+		border-radius: 5px;
+		width: 150px;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	
+	.foot ul {
+		list-style: none;
+	}
+	
+	.foot ul li {
+		color: #fff;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	
+	.foot ul li h4 {
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	.subtext_2 {
+		padding-top: 50px;
+	}
+	
+	.sub {
+		margin-bottom: 50px;
+	}
+	
+	.sub h5 {
+		font-family: 'Droid Serif', serif;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	
+	.sub h2 {
+		font-family: 'Droid Serif', serif;
+		color: #404040;
+		display: inline;
+		font-size: 24px;
+		font-weight: bold;
+	}
+	
+	.move_down {
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	
+	.moreof {
+		text-align: center;
+	}
+	
+	.android {
+		height: 40px;
+	}
